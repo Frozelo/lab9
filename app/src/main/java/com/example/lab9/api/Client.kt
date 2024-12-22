@@ -4,8 +4,8 @@ import OMDbApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class Client {
-    private val BASE_URL = "http://www.omdbapi.com/"
+object Client {
+    private const val BASE_URL = "http://www.omdbapi.com/"
 
     val apiService: OMDbApiService by lazy {
         Retrofit.Builder()
