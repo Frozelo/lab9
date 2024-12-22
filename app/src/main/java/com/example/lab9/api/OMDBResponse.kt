@@ -3,7 +3,7 @@ package com.example.lab9.api
 import com.google.gson.annotations.SerializedName
 
 
-data class OMDBResponse(
+data class OMDbSearchResponse(
     @SerializedName("Search") val search: List<OMDbMovie>?,
     @SerializedName("totalResults") val totalResults: String?,
     @SerializedName("Response") val response: String,
