@@ -8,6 +8,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.lab9.Movie
 
+
 @Dao
 interface MovieDao {
 
