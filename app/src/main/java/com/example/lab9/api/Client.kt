@@ -1,11 +1,12 @@
 package com.example.lab9.api
 
-import OMDbApiService
+
+
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object Client {
-    private const val BASE_URL = "http://www.omdbapi.com/"
+    private const val BASE_URL = "https://www.omdbapi.com/"
 
     val apiService: OMDbApiService by lazy {
         Retrofit.Builder()

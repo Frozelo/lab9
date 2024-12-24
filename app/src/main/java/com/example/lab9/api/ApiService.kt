@@ -1,4 +1,5 @@
-import com.example.lab9.api.OMDbSearchResponse
+package com.example.lab9.api
+
 import com.google.gson.annotations.SerializedName
 import retrofit2.Response
 import retrofit2.http.GET
