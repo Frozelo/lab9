@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Lab9" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Тема приложения, основанная на Theme.AppCompat без пользовательских цветов -->
+    <style name="Theme.Lab9" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Использование стандартных цветов -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
 </resources>
